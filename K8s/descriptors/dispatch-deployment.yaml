@@ -20,6 +20,7 @@ spec:
       creationTimestamp: null
       labels:
         io.kompose.service: dispatch
+        app: dispatch
     spec:
       containers:
       - image: linuxacademycontent/rs-dispatch:latest
