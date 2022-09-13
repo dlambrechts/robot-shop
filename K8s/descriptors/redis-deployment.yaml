@@ -11,6 +11,9 @@ metadata:
   name: redis
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: redis
   strategy: {}
   template:
     metadata:
